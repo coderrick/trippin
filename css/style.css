@@ -1,0 +1,76 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#card-lists {
+    font-family: arial;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#card-lists .card {
+    float: left;
+    width: 31%;
+    border: 1px solid #ccc;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#card-lists .card:first-child {
+    margin-left: 0;
+}
+
+#card-lists .card figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#card-lists .card figure img {
+    width: 100%;
+    height: auto;
+}
+
+#card-lists .card figure figcaption {
+    padding: 10px;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    background: rgb(63, 81, 181);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+#player-specific-info--facebook,
+#player-specific-info--twitter {
+    font-weight: bold;
+}
